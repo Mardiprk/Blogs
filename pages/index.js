@@ -23,16 +23,7 @@ export default function Home() {
         from all that. I was stressed and, of course, also on my phone too much
         (and still am).
       </p>
-      <p className={styles.text}>
-        Maybe something you can do with your hands. The suggestion felt like an
-        escape hatch: Maybe a hobby could free me from toil. Cooking had once
-        been the thing I did to relax when I got home from work, the thing I was
-        curious about, the thing that distracted my brain from its standard
-        litany of complaints. Puttering in the kitchen had once been a release,
-        but now it was part of my professional life. It needed a replacement. A
-        few months later, I dutifully signed up for a ceramics class at a studio
-        nearish my Brooklyn apartment.
-      </p>
+
       <Link href="/about">
         <a className={styles.btn}>About us</a>
       </Link>
