@@ -34,7 +34,7 @@ export default function Home() {
         nearish my Brooklyn apartment.
       </p>
       <Link href="/about">
-        <a className={styles.btn}>See About Section</a>
+        <a className={styles.btn}>About us</a>
       </Link>
     </div>
   );
