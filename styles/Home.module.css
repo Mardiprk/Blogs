@@ -8,12 +8,15 @@
 
 .title{
   color: #333;
-  padding-bottom: 20px;
   text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
 }
 
 .text{
   color: #777;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .btn{
   display: block;
