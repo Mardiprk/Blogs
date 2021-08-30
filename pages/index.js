@@ -23,7 +23,6 @@ export default function Home() {
         from all that. I was stressed and, of course, also on my phone too much
         (and still am).
       </p>
-
       <Link href="/about">
         <a className={styles.btn}>About us</a>
       </Link>
