@@ -1,26 +1,11 @@
-import Header from "./header";
-import Navbar from "./navbar";
-
-export default function Layout(props) {
+import NavBar from "./NavBar";
+import Footer from "./Footer";
+export default function Layout({ children }) {
   return (
-    <div className="Layout" style={layoutStyle}>
-      <Header />
-      <div className="Content" style={contentStyle}>
-        {props.children}
-      </div>
-      <Navbar />
+    <div className="content">
+      <NavBar />
+      {children}
+      <Footer />
     </div>
   );
 }
-const contentStyle = {
-  flex: 1,
-  display: "flex",
-};
-const layoutStyle = {
-  display: "flex",
-  flexDirection: "column",
-
-  height: "100%",
-  width: "100%",
-  alignItems: "center",
-};
