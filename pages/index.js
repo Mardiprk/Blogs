@@ -8,17 +8,14 @@ export default function Home() {
         <title>Home</title>
       </Head>
 
-      <h1
-        className={styles.title}
-        style={{ fontFamily: "serif", textAlign: "left" }}
-      >
+      <h1 className={styles.title} style={{ textAlign: "left" }}>
         All Companies Should Live by the Jeff Bezos 70 Percent Rule
       </h1>
-      <h3>
+      <h2>
         A guide to making business decisions—even without all the
         information—inspired by the Amazon CEO.
-      </h3>
-      <Image src="/jeff.jpg" height={700} width={1000} />
+      </h2>
+      <Image src="/jeff.jpg" height={650} width={1000} />
       <p className={styles.text}>
         There are times when companies move too swiftly into a decision that
         hurts them. There are also occasions when they’re too slow and they

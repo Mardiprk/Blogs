@@ -1,17 +1,32 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function NavBar() {
   return (
     <nav>
       <div className="logo">
-        <h1 style={{ color: "#fff" }}>Header</h1>
+        <Image src="/logo.jpg" height={80} width={120} />
       </div>
 
       <Link href="/">
-        <a>Home</a>
+        <a
+          className="tit"
+          style={{
+            color: "#222",
+          }}
+        >
+          Home
+        </a>
       </Link>
       <Link href="/about">
-        <a>About</a>
+        <a
+          className="tit"
+          style={{
+            color: "#222",
+          }}
+        >
+          About
+        </a>
       </Link>
     </nav>
   );

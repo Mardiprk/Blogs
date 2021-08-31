@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&family=Benne&display=swap');
+
 .container {
   min-height: 10vh;
   display: flex;
@@ -10,14 +13,17 @@
   color: #333;
   font-size: 2rem;
   font-weight: bold;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Benne', serif;
 }
 
 .text{
   color: #777;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   padding-left: 10px;
   padding-right: 10px;
+  max-width: 60rem;
 
 }
 .btn{

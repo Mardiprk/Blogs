@@ -8,7 +8,7 @@ export default function About() {
       <Head>
         <title>About</title>
       </Head>
-      <h1 className={styles.title} style={{ fontFamily: "serif" }}>
+      <h1 className={styles.title} style={{ textAlign: "left" }}>
         About Page
       </h1>
       <p className={styles.text}>
