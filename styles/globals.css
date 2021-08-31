@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
-  color: #333;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -16,44 +16,48 @@ a {
   box-sizing: border-box;
 }
 
-content{
-    max-width: 960px;
-    margin: 0 auto;
+content {
+  max-width: 960px;
 }
 
-nav{
-  margin:1px auto 20px;
-  padding:10px 0;
+nav {
+  padding: 5px 10px;
   display: flex;
-  justify-content:flex-end;
-  align-items:center;
+  justify-content: flex-end;
+  align-items: center;
   border-bottom: 1px solid #999;
+  background-color: black;
+  color: inherit;
 }
-nav .logo{
+nav .logo {
   margin-right: auto;
 }
-nav a{
+nav a {
   margin-left: 12px;
 }
-footer{
+footer {
   display: block;
   text-align: center;
   padding: 30px 0;
-  margin-top: 60px ;
+  margin-top: 60px;
   color: #333;
   border-top: 1px solid #eaeaea;
 }
-h1{
+h1 {
   font-weight: bolder;
   text-align: center;
+  
 }
-h2{
+h2 {
   text-align: center;
 }
-.not-found{
+h3{
+  padding: 10px;
+}
+.not-found {
   text-align: center;
 }
-.not-found a{
+.not-found a {
   color: #4979ff;
   text-decoration: underline;
 }

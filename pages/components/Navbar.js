@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <nav>
       <div className="logo">
-        <h1>Header</h1>
+        <h1 style={{ color: "#fff" }}>Header</h1>
       </div>
 
       <Link href="/">
