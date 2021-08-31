@@ -8,7 +8,10 @@ export default function Home() {
         <title>Home</title>
       </Head>
 
-      <h1 className={styles.title} style={{ fontFamily: "serif" }}>
+      <h1
+        className={styles.title}
+        style={{ fontFamily: "serif", textAlign: "left" }}
+      >
         All Companies Should Live by the Jeff Bezos 70 Percent Rule
       </h1>
       <h3>

@@ -8,15 +8,14 @@
 
 .title{
   color: #333;
-  text-align: center;
   font-size: 2rem;
   font-weight: bold;
+  padding: 10px;
 }
 
 .text{
   color: #777;
   font-size: 1.1rem;
-  font-style: italic;
   padding-left: 10px;
   padding-right: 10px;
 
