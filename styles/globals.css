@@ -32,8 +32,8 @@ nav .logo {
   margin-right: auto;
 }
 nav .tit{
-  font-family: 'Balthazar', serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight:700
 }
 nav a {
   margin-left: 12px;
@@ -50,10 +50,14 @@ footer {
 h1 {
   font-weight: bolder;
   text-align: center;
+  font-family: fantasy;
 }
 h2 {
   padding: 10px;
-  font-family: 'Balthazar', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+  color: #2C394B;
 }
 
 .not-found {
