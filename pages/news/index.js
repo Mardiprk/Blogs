@@ -13,26 +13,46 @@ export const getStaticProps = async () => {
   };
 };
 
-export default function Ninjas({ ninjas }) {
+export default function News({ ninjas }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Ninjas List</title>
+        <title>News</title>
       </Head>
       <div className={styles.align}>
-        <h1 className={styles.title} style={{ textAlign: "center" }}>
-          Ninja List
+        <h1
+          className={styles.title}
+          style={{ textAlign: "center", color: "#012443" }}
+        >
+          Read Latest News
         </h1>
         {ninjas.map((ninja) => (
-          <Link href={"/ninjas/" + ninja.source.id} key={ninja.source.id}>
+          <Link href={ninja.url} key={ninja.source.id}>
             <a className={st.single}>
+              <img
+                src={ninja.urlToImage}
+                height={220}
+                width={350}
+                style={{ borderRadius: 6 }}
+              />
               <p className={st.txt}>{ninja.title}</p>
               <p
                 className={st.txt}
                 style={{
                   fontStyle: "italic",
-                  fontFamily: "sans-serif",
                   color: "#999",
+                  fontSize: 15,
+                }}
+              >
+                {ninja.description}
+              </p>
+
+              <p
+                className={st.txt}
+                style={{
+                  fontStyle: "italic",
+                  fontFamily: "sans-serif",
+                  color: "#444",
                   fontSize: 13,
                 }}
               >

@@ -5,20 +5,17 @@
     margin: 20px 10px;
     border: 1px solid;
     border-color: black;
-    border-style: dashed;
     border-radius: 10px;
     padding: 2rem;
+    border-style:hidden;
+    flex-direction: row;
 }
 .single:hover{
-    border-color: #38A3A5;
+    border-color: #FF0000;
 
 }
 
 .txt{
     color: #333;
     padding: -20px;
-}
-.txt:hover{
-    color: #38A3A5;
-
 }

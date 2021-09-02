@@ -9,7 +9,6 @@ export default function Home() {
         <title>Home</title>
       </Head>
 
-      <Image src="/img.png" height={890} width={1550} />
       <div className={styles.align}>
         <h1>
           NATO allies are preparing for a future without America’s “forever
@@ -50,12 +49,7 @@ export default function Home() {
           total of 1,145 allied troops died in Afghanistan of the approximately
           3,500 service members killed.
         </p>
-        <Image
-          src="/biden.png"
-          height={490}
-          width={750}
-          title="President George W. Bush gives an address on Afghanistan and the war on terror, saying the US “will not fail” at Travis Air Force Base on October 17, 2001"
-        />
+
         <p className={styles.text}>
           The United States, starting with Donald Trump, and continuing with Joe
           Biden, made clear the plan to withdraw from Afghanistan. But the rapid

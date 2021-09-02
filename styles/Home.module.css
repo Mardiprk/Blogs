@@ -16,11 +16,12 @@
   padding-left: 10px;
   padding-right: 10px;
   font-family: 'Inter', sans-serif;
-  text-align: left;
+  text-align: center
 }
 .align{
   max-width: 40rem;
   align-items: center;
+  justify-content: center;
   
 }
 .btn{
