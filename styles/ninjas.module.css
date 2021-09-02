@@ -1,0 +1,24 @@
+.single{
+    padding: 2px;
+    background: #fff;
+    display: block;
+    margin: 20px 10px;
+    border: 1px solid;
+    border-color: black;
+    border-style: dashed;
+    border-radius: 10px;
+    padding: 2rem;
+}
+.single:hover{
+    border-color: #38A3A5;
+
+}
+
+.txt{
+    color: #333;
+    padding: -20px;
+}
+.txt:hover{
+    color: #38A3A5;
+
+}

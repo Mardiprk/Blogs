@@ -7,7 +7,7 @@ export default function NavBar() {
       <div className="logo">
         <Link href="/">
           <a>
-            <Image src="/logo.png" height={35} width={40} />
+            <Image src="/logo.png" height={25} width={105} />
           </a>
         </Link>
       </div>
@@ -30,6 +30,16 @@ export default function NavBar() {
           }}
         >
           About
+        </a>
+      </Link>
+      <Link href="/ninjas/">
+        <a
+          className="tit"
+          style={{
+            color: "#222",
+          }}
+        >
+          Ninjas
         </a>
       </Link>
     </nav>

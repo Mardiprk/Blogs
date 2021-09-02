@@ -20,7 +20,8 @@
 }
 .align{
   max-width: 40rem;
-
+  align-items: center;
+  
 }
 .btn{
   display: block;
@@ -31,4 +32,7 @@
   border-radius: 4px;
   color: #fff;
   text-align: center;
+}
+.names{
+  color: #333;
 }
