@@ -1,21 +1,17 @@
 .single{
-    padding: 2px;
+    padding: 5px 5px;
     background: #fff;
     display: block;
-    margin: 20px 10px;
-    border: 1px solid;
-    border-color: black;
-    border-radius: 10px;
-    padding: 2rem;
-    border-style:hidden;
-    flex-direction: row;
-}
-.single:hover{
-    border-color: #FF0000;
+    margin: 10px ;
+    align-items: center;
 
 }
+
+
 
 .txt{
     color: #333;
-    padding: -20px;
+}
+.txt:hover{
+    color: orange;
 }
