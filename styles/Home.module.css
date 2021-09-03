@@ -11,11 +11,12 @@
 
 
 .text{
-  color: #787A91;
-  font-size: 1rem;
+  color: #333;
+  font-size: 1.1rem;
   padding-left: 10px;
   padding-right: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Kaisei Tokumin', serif;
+
   text-align: left
 }
 .align{
@@ -24,16 +25,4 @@
   justify-content: center;
   
 }
-.btn{
-  display: block;
-  width: 150px;
-  padding: 8px 0;
-  margin: 20px auto;
-  background: #4979ff;
-  border-radius: 4px;
-  color: #fff;
-  text-align: center;
-}
-.names{
-  color: #333;
-}
+

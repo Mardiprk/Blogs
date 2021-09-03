@@ -1,15 +1,14 @@
 import "../styles/globals.css";
-import Layout from "./components/layout";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-function MyApp({ Component, pageProps }) {
+import Header from "./components/header";
+import Foot from "./components/foot";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+export default function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Navbar />
+      <Header />
       <Component {...pageProps} />
-      <Footer />
+      <Foot />
     </>
   );
 }
-
-export default MyApp;
