@@ -18,15 +18,15 @@ export default function foot() {
           <h2>Information</h2>
           <ul className="box">
             <li>
-              <a href="#">Instagram</a>
+              <a href="#">Blog</a>
             </li>
             <li>
-              <a href="#">Twitter</a>
+              <a href="#">Articles</a>
             </li>
           </ul>
         </li>
         <li>
-          <h2>Information</h2>
+          <h2>Social</h2>
           <ul className="box">
             <li>
               <a href="#">Instagram</a>

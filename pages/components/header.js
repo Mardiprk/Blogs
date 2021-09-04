@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { FaBars } from "react-icons/fa";
 
 export default function header() {
   return (
@@ -9,16 +10,18 @@ export default function header() {
       </div>
       <input type="checkbox" id="click" />
       <label htmlFor="click" className="menu-btn">
-        <i classNmae="fas fa-bars" />
+        <FaBars />
       </label>
       <ul>
         <li>
-          <a className="active" href="#">
-            Home
-          </a>
+          <Link href="/">
+            <a>Home</a>
+          </Link>
         </li>
         <li>
-          <a href="#">About</a>
+          <Link href="/about">
+            <a>About</a>
+          </Link>
         </li>
       </ul>
     </nav>
