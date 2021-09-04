@@ -1,6 +1,5 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -16,7 +15,7 @@ export default function Home() {
       <div className="w3-container">
         <h1>Top Stories</h1>
       </div>
-      <div className="sty">
+      <div>
         <h1>Zero Config</h1>
         <p>
           Automatic compilation and bundling. Optimized for production from the
