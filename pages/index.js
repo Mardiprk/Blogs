@@ -15,14 +15,33 @@ export default function Home() {
       <div className="w3-container">
         <h1>Top Stories</h1>
       </div>
-      <div>
-        <h1>Zero Config</h1>
-        <p>
-          Automatic compilation and bundling. Optimized for production from the
-          start.
-        </p>
-      </div>
+
       <div className="w3-row-padding" style={{ padding: 10 }}>
+        <div
+          style={{
+            padding: 10,
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <h1>Zero Config</h1>
+          <p>
+            Automatic compilation and bundling. Optimized for production from
+            the start.
+          </p>
+          <div
+            style={{
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <h1>Zero Config</h1>
+            <p>
+              Automatic compilation and bundling. Optimized for production from
+              the start.
+            </p>
+          </div>
+        </div>
         <div className="w3-third">
           <h1>London</h1>
           <p>London is the capital city of England.</p>

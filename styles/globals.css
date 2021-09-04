@@ -178,7 +178,7 @@ input[type="checkbox"]{
     background: #fff;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px ;
+    padding: 0 10px 10px 15px;
     flex-wrap: wrap;
   }
   nav .menu-btn .bar{
