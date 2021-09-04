@@ -4,7 +4,7 @@ export default function foot() {
     <footer className="footer">
       <div className="l-footer">
         <h1>
-          <Image src="/logos.png" width={100} height={50} />
+          <Image src="/logos.png" width={100} height={50} alt="Logo" />
         </h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
