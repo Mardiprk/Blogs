@@ -1,17 +1,13 @@
-## This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Created by [Prakash Mardi](https://www.instagram.com/_strawberrybiryani/)
 
-###### Getting Started
+Paper explains the news.
 
-First, run the development server:
+We live in a world of too much information and too little context. Too much noise and too little insight. And so Paper's journalists candidly shepherd audiences through politics and policy, business and pop culture, food, science, and everything else that matters. You can find our work wherever you live on the internet — Facebook, YouTube, email, iTunes, Instagram, and more.
 
-```
-> npm run dev
+Paper was launched at Paper Media in 2014 by founders Ezra Klein, Melissa Bell, and Matthew Yglesias.
 
-> yarn dev
-```
+## Made with ❤️ in India
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##### Served using [Vercel](https://vercel.com/)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## You can see it live [here](https://blogs-eight-lyart.vercel.app/)
+## Checkout live website [here](https://blogs-eight-lyart.vercel.app/)

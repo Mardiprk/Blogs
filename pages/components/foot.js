@@ -55,7 +55,7 @@ export default function foot() {
         </li>
       </ul>
       <div className="b-footer">
-        <p>All rights reserved by ©Paper 2021 </p>
+        <p>© 2021 Paper Media, LLC. All Rights Reserved</p>
       </div>
     </footer>
   );
