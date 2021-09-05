@@ -20,7 +20,7 @@ export default function foot() {
           <ul className="box">
             <li>
               <Link href="/about">
-                <a href="#">About Us</a>
+                <a>About Us</a>
               </Link>
             </li>
           </ul>
