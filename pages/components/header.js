@@ -22,16 +22,6 @@ export default function header() {
             <a>Home</a>
           </Link>
         </li>
-        <li>
-          <Link href="/about">
-            <a>About</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/news">
-            <a>News</a>
-          </Link>
-        </li>
       </ul>
     </nav>
   );

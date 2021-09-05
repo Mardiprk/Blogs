@@ -19,10 +19,9 @@ export default function foot() {
           <h2>Information</h2>
           <ul className="box">
             <li>
-              <a href="#">Blog</a>
-            </li>
-            <li>
-              <a href="#">Articles</a>
+              <Link href="/about">
+                <a href="#">About Us</a>
+              </Link>
             </li>
           </ul>
         </li>
@@ -30,13 +29,9 @@ export default function foot() {
           <h2>Social</h2>
           <ul className="box">
             <li>
-              <a href="#">Instagram</a>
-            </li>
-            <li>
-              <a href="#">Twitter</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
+              <Link href="https://www.instagram.com/papernews_app/">
+                <a>Instagram</a>
+              </Link>
             </li>
           </ul>
         </li>
@@ -47,12 +42,6 @@ export default function foot() {
               <Link href="/pp">
                 <a>Privacy Policy</a>
               </Link>
-            </li>
-            <li>
-              <a href="#">Terms of Use</a>
-            </li>
-            <li>
-              <a href="#">Contract</a>
             </li>
           </ul>
         </li>
