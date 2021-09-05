@@ -1,8 +1,19 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
+import { NavItem } from "react-bootstrap";
 
-export default function Home() {
+export async function getStaticProps() {
+  const res = await fetch("https://api.npoint.io/6240f6fa023274a4980d");
+  const data = await res.json();
+  return {
+    props: {
+      news: data,
+    },
+  };
+}
+
+export default function Home({ news }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -18,32 +29,16 @@ export default function Home() {
       </div>
 
       <div className="w3-row-padding" style={{ padding: 10 }}>
-        <div className="w3-third">
-          <h2>
-            Millions of Americans don’t have drinkable water. Can the
-            infrastructure bill fix that?
-          </h2>
-          <p>London is the capital city of England.</p>
-          <p>
-            It is the most populous city in the{" "}
-            <b>
-              <i>United Kingdom</i>
-            </b>
-            , with a metropolitan area of over 13 million inhabitants.
-          </p>
-        </div>
-
-        <div className="w3-third">
-          <h2>
-            Millions of Americans don’t have drinkable water. Can the
-            infrastructure bill fix that?
-          </h2>
-          <p>
-            <i>
-              Simply allocating more money won’t necessarily solve the problem.
-            </i>
-          </p>
-        </div>
+        {news.map((paper) => (
+          <div
+            className="w3-third"
+            key={paper.source.id}
+            style={{ borderColor: "#333", borderBottomWidth: 1 }}
+          >
+            <h2>{paper.title}</h2>
+            <p>{paper.description}</p>
+          </div>
+        ))}
       </div>
     </div>
   );

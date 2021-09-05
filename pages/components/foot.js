@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 export default function foot() {
   return (
     <footer className="footer">
@@ -42,7 +44,9 @@ export default function foot() {
           <h2>Legal</h2>
           <ul className="box">
             <li>
-              <a href="#">Privacy Policy</a>
+              <Link href="/pp">
+                <a>Privacy Policy</a>
+              </Link>
             </li>
             <li>
               <a href="#">Terms of Use</a>

@@ -37,7 +37,7 @@ h1{
 
 }
 .w3-third p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #666;
 }
 *, *:before, *:after {
@@ -233,7 +233,7 @@ input[type="checkbox"]{
   }
   nav ul li{
     width: 100%;
-    margin: 40px 0;
+    margin: 40px ;
   }
   nav ul li a{
     width: 100%;
@@ -245,14 +245,11 @@ input[type="checkbox"]{
   #click:checked ~ ul li a{
     margin-left: 0px;
   }
-  nav ul li a.active,
-  nav ul li a:hover{
-    background: none;
-    color: cyan;
-  }
+  
 }
 .w3-row-padding{
   text-align: left;
+  max-width: 65rem;
 }
 
 
@@ -293,3 +290,6 @@ input[type="checkbox"]{
   height: 94.73px;
   width: 168.59px;
 }
+
+
+
