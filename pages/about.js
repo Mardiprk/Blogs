@@ -1,9 +1,6 @@
-/* eslint-disable react/no-unescaped-entities */
-import styles from "../styles/Home.module.css";
-
 export default function about() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <h1>About Us</h1>
       <div className="w3-row-padding" style={{ padding: 10 }}>
         <div className="w3-third">

@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 export default function pp() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link

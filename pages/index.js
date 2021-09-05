@@ -15,7 +15,7 @@ export async function getStaticProps() {
 
 export default function Home({ news }) {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
@@ -28,7 +28,10 @@ export default function Home({ news }) {
         <h1>Top Stories</h1>
       </div>
 
-      <div className="w3-row-padding" style={{ padding: 10 }}>
+      <div
+        className="w3-row-padding"
+        style={{ padding: 10, justifyContent: "center", alignItems: "center" }}
+      >
         {news.map((paper) => (
           <div
             className="w3-third"
@@ -37,6 +40,13 @@ export default function Home({ news }) {
           >
             <h2>{paper.title}</h2>
             <p>{paper.description}</p>
+            <p>
+              <b>
+                <i style={{ backgroundColor: "yellow", color: "#222" }}>
+                  -{paper.source.name}
+                </i>
+              </b>
+            </p>
           </div>
         ))}
       </div>
