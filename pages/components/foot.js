@@ -7,10 +7,9 @@ export default function foot() {
           <Image src="/logos.png" width={100} height={50} alt="Logo" />
         </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
-          atque recusandae in sit sunt molestiae aliquid fugit. Mollitia eaque
-          tempore iure sit nobis? Vitae nemo, optio maiores numquam quis
-          recusandae.
+          Keep Trends in your pocket with the latest news for events happening
+          across the globe and in India. Get summarized content across various
+          categories and interests.
         </p>
       </div>
       <ul className="r-footer">

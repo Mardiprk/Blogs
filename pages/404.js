@@ -1,14 +1,10 @@
-import Link from "next/link";
 import Head from "next/head";
 import Lottie from "lottie-react";
-import Error from "../public/16294-404-space-error.json";
+import Error from "../public/36395-lonely-404.json";
 
 export default function NotFound() {
   return (
-    <div
-      className="not-found"
-      style={{ alignItems: "center", justifyContent: "center" }}
-    >
+    <div className="not-found" style={{ alignItems: "center" }}>
       <Head>
         <title>Page Not Found :/</title>
       </Head>
@@ -20,14 +16,6 @@ export default function NotFound() {
           justifyContent: "center",
         }}
       />
-      <div className="not-found">
-        <p>
-          Go back to{" "}
-          <Link href="/">
-            <a>Homepage</a>
-          </Link>
-        </p>
-      </div>
     </div>
   );
 }

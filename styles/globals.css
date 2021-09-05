@@ -6,7 +6,6 @@
 
 html,
 body {
-  padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
@@ -14,17 +13,33 @@ body {
   color: #000;
   background: yellow;
 }
+.not-found{
+  align-items: center;
+}
+
 h1{
   font-size: 2rem;
   font-family: 'Pattaya', sans-serif;
   color: #333;
 }
 
-.w3-third h2 {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
 
+
+
+.w3-third h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #444;
+
+}
+.w3-third h2:hover {
+  color: #000;
+
+}
+.w3-third p {
+  font-size: 0.9rem;
+  color: #666;
+}
 *, *:before, *:after {
   box-sizing: border-box;
   }
@@ -48,7 +63,7 @@ h1{
   
   h2 {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1.2rem;
   }
   
   .footer ul {
@@ -235,4 +250,46 @@ input[type="checkbox"]{
     background: none;
     color: cyan;
   }
+}
+.w3-row-padding{
+  text-align: left;
+}
+
+
+.fimg{
+  height:118.56px;
+  width: 211px;
+}
+.ffont{
+  font: 19.8px Balto, Helvetica, san-serif;
+  color: #333333;
+}
+
+.mainimg{
+  height:316.48px;
+  width: 562px;
+}
+.h2title{
+  font-family: "Balto",Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 1.2;
+  text-transform: none;
+  max-width: 562px;
+  color: #333333;
+}
+.author-name{
+  color: #4f7177;
+  font: 13.7px;
+}
+.main-hr{
+  width:560px;
+}
+#main {
+  max-width: 650px;
+}
+.main-second__img{
+  height: 94.73px;
+  width: 168.59px;
 }

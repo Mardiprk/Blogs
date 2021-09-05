@@ -6,7 +6,11 @@ export default function header() {
   return (
     <nav>
       <div>
-        <Image src="/logos.png" height={30} width={60} alt="Logo" />
+        <Link href="/">
+          <a>
+            <Image src="/logos.png" height={30} width={60} alt="Logo" />
+          </a>
+        </Link>
       </div>
       <input type="checkbox" id="click" />
       <label htmlFor="click" className="menu-btn">
@@ -21,6 +25,11 @@ export default function header() {
         <li>
           <Link href="/about">
             <a>About</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/news">
+            <a>News</a>
           </Link>
         </li>
       </ul>
