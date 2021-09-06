@@ -17,7 +17,7 @@ export default function Home() {
         {news.map((paper) => (
           <div className="w3-third" key={paper.source.id}>
             <h2>{paper.title}</h2>
-            <p>{truncate(paper.description)}</p>
+            <p>{paper.description}</p>
             <p>
               <b>
                 <i style={{ backgroundColor: hexCode(), color: "#fff" }}>
