@@ -28,6 +28,10 @@ h1{
   color: #333;
 }
 
+
+.w3-third  {
+  margin-bottom: 2rem;
+}
 .w3-third h2 {
   font-size: 1.2rem;
   font-weight: bold;
@@ -54,7 +58,7 @@ nav{
   display: flex;
   height: 80px;
   width: 100%;
-  background: #fff;
+  background: #151515;
   align-items: center;
   justify-content: space-between;
   padding: 0 10px ;
@@ -93,7 +97,7 @@ nav ul li a:hover{
   background: #fff;
 }
 nav .menu-btn .bar{
-  color: #fff;
+  color: #151515;
 }
 input[type="checkbox"]{
   display: none;
@@ -115,7 +119,17 @@ input[type="checkbox"]{
     flex-wrap: wrap;
   }
   nav .menu-btn .bar{
-    color: #111;
+    color: #fff;
+  }
+  nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background: #151515;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px ;
+    flex-wrap: wrap;
   }
 }
 

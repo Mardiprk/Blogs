@@ -14,6 +14,14 @@ export async function getStaticProps() {
 }
 
 export default function Home({ news }) {
+  const hexCode = () => {
+    let n = (Math.random() * 0xfffff * 1000000).toString(16);
+    return `#${n.slice(0, 6)}`;
+  };
+
+  const truncate = (str, len = 96) => {
+    return str.length < len ? str : `${str.slice(0, len - 3)}...`;
+  };
   return (
     <div className="container">
       <Head>
@@ -33,16 +41,12 @@ export default function Home({ news }) {
         style={{ padding: 10, justifyContent: "center", alignItems: "center" }}
       >
         {news.map((paper) => (
-          <div
-            className="w3-third"
-            key={paper.source.id}
-            style={{ borderColor: "#333", borderBottomWidth: 1 }}
-          >
+          <div className="w3-third" key={paper.source.id}>
             <h2>{paper.title}</h2>
-            <p>{paper.description}</p>
+            <p>{truncate(paper.description)}</p>
             <p>
               <b>
-                <i style={{ backgroundColor: "yellow", color: "#222" }}>
+                <i style={{ backgroundColor: hexCode(), color: "#fff" }}>
                   -{paper.source.name}
                 </i>
               </b>
