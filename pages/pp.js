@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 export default function pp() {
   return (
-    <div className="container">
+    <div className="w3-container" style={{ alignItems: "center" }}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
@@ -13,7 +13,7 @@ export default function pp() {
         <title>Home</title>
       </Head>
       <div className="w3-container">
-        <h1>Privacy Policy</h1>
+        <h1 style={{ textAlign: "center" }}>Privacy Policy</h1>
       </div>
       <div className="w3-row-padding">
         <p style={{ padding: 10 }}>

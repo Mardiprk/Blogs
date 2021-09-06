@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaAudible } from "react-icons/fa";
 
 export default function header() {
   return (
@@ -8,7 +8,7 @@ export default function header() {
       <div>
         <Link href="/">
           <a>
-            <Image src="/logos.png" height={30} width={60} alt="Logo" />
+            <FaAudible color="#fff" size={30} />
           </a>
         </Link>
       </div>
